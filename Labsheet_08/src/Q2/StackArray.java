@@ -1,7 +1,7 @@
 package Q2;
 
 public class StackArray {
-    private int maxSize;
+    private final int maxSize;
 
     private int [] stackData;
     private int top;
